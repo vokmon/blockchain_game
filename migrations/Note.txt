@@ -1,0 +1,8 @@
+truffle migrate --reset
+truffle console
+token = await MemoryToken.deployed()
+name = await token.name()
+
+openzeppelin
+https://openzeppelin.com/
+https://github.com/OpenZeppelin/openzeppelin-contracts
